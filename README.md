@@ -23,22 +23,30 @@
   
 3️⃣ Install Java
 
-sudo yum update -y
-sudo dnf install java-17-amazon-corretto -y
-java -version
+
+
+		sudo yum update -y
+		sudo dnf install java-17-amazon-corretto -y
+		java -version
 
 
 4️⃣ Build your Spring Boot JAR locally
 
-mvn clean package
+
+		mvn clean package
 
 
 5️⃣ Copy JAR to EC2
 
 
-scp -i /c/Users/LENOVO/Desktop/Learn/mykey.pem /d/Practice/SpringBootEks/target/springboot-eks.jar ec2-user@3.111.196.244:/home/ec2-user/
+
+		scp -i /c/Users/LENOVO/Desktop/Learn/mykey.pem /d/Practice/SpringBootEks/target/springboot-eks.jar ec2-user@3.111.196.244:/home/ec2-user/
+
+
 
 6️⃣ Run your app
 
-On EC2
-java -jar springboot-eks.jar
+
+
+ 	On EC2 instance
+	java -jar springboot-eks.jar
