@@ -1,4 +1,6 @@
 "# springboot-Deploy-on-AWS-EC2-SSh" 
+
+
 1️⃣ Launch EC2 instance
 •	OS: Amazon Linux 2023
 •	Type: t2.micro (or your choice)
