@@ -17,6 +17,8 @@
 			Allow Custom TCP (port 8080) — from 0.0.0.0/0 (for app access)
 
 2️⃣ Connect to EC2 via SSH
+
+
 		ssh -i /c/Users/LENOVO/Desktop/Learn/mykey.pem ec2-user@3.111.196.244
   
 3️⃣ Install Java
@@ -32,6 +34,7 @@ mvn clean package
 
 
 5️⃣ Copy JAR to EC2
+
 
 scp -i /c/Users/LENOVO/Desktop/Learn/mykey.pem /d/Practice/SpringBootEks/target/springboot-eks.jar ec2-user@3.111.196.244:/home/ec2-user/
 
